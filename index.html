@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- BOX ICONS from boxicons.com (the remote version)-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Hannah's CV</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Smith</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link" > <i class="bx bx-home nav__icon"></i>Home </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#profile" class="nav__link"><i class='bx bx-user nav__icon'></i> </i>Profile </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#education" class="nav__link"> <i class='bx bx-book nav__icon'></i></i>Education </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link"> <i class='bx bx-receipt nav__icon'></i>Skills </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#experience" class="nav__link"> <i class='bx bx-briefcase-alt nav__icon'></i>Experience </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#certificates" class="nav__link"> <i class='bx bx-award' nav__icon></i>Certificates </a>
+            </li>
+
+            <li class="nav__item">
+                <a href="#references" class="nav__link"> <i class='bx bx-link-external nav__icon'></i>References </a>
+              </li>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-grid-alt' ></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- All elements within this div, is generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!-- HOME -->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+                <div class="home__data db-grid">
+                    <img src="assets/img/hannah.jpg" alt="" class="home__img">
+
+                    <h1 class="home__title">HANNAH FAYE A.<b>ORDONIO</b></h1>
+                    <!-- <h3 class="home__profession">Web developer</h3> -->
+                    <!-- Button to download your CV saved in the pdf folder. Available for mobile -->
+                    <div>
+                        <a download="" href="assets/pdf/Hannah Resume 2022 2.pdf" class="home__button-movil">Download</a>
+                    </div>
+
+                    <div class="home__address bd-grid">
+                        <span class="home__information">
+                            <i class="bx bx-map home__icon"></i><span class="details">#107 Sycamore Bldg. Northgrove Condo. Susano Rd. Brgy. 172, Camarin Caloocan City, 1400</span>
+                        </span>
+                        <span class="home__information">
+                            <i class="bx bx-envelope home__icon"></i> hannahfayeordonio@gmail.com
+                        </span>
+                        <span class="home__information">
+                            <i class='bx bx-mobile-alt home__icon'></i> +639-365-645-186 (GLOBE) 
+                        </span>
+                        <span class="home__information">
+                            <i class='bx bx-mobile-alt home__icon'></i> +639-462-067-436 (SMART)
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- Theme change button -->
+            <i class="bx bx-moon change-theme" title="Change Theme" id="theme-button"></i>
+
+            <!-- Button to generate and download the pdf. Available for desktop. -->
+            <!-- <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i> -->
+          </section>
+
+          <!-- SOCIAL-->
+          <section class="social section">
+            <h2 class="section-title"><i class='bx bx-conversation social__icon'></i>SOCIAL</h2>
+            <div class="social__container bd-grid">
+
+                <a href="https://www.facebook.com/hannahaguilar06" target="_blank" class="social__link">
+                    <i class="bx bxl-facebook social__icon"></i> @ Hannah Aguilar Ordonio
+                </a>
+                <a href="https://www.linkedin.com/in/hannah-faye-ordonio/" target="_blank" class="social__link">
+                    <i class="bx bxl-linkedin-square social__icon"></i> @ Hannah Faye Ordonio
+                </a>
+
+                <a href="https://web.whatsapp.com/" target="_blank" class="social__link">
+                    <i class='bx bxl-whatsapp social__icon'></i> 09365645186 (Whatsapp)
+                </a>
+
+                <a href="https://web.whatsapp.com/" target="_blank" class="social__link">
+                    <i class='bx bxl-telegram social__icon'></i> 09365645186 (Telegram)
+                </a>
+
+                <a href="https://www.viber.com/en/" target="_blank" class="social__link">
+                    <i class='bx bx-phone-call social__icon'></i> 09365645186 (Viber)
+                </a>
+                
+            </div>
+          </section>
+
+          
+          <!-- Education -->
+          <section class="education section" id="education">
+            <h2 class="section-title"><i class='bx bxs-graduation social__icon'></i>Education</h2>
+
+            <div class="education__container bd-grid">
+                <div class="education__content">
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+                    <div class="education__data bd-grid">
+                        <h3 class="education__title"> BSIT Major in Computer Science</h3>
+                        <span class="education__studies">Quezon City Polytechnic University (QCPU)</span>
+                        <span class="education__year">2009 - 2013</span>
+
+                        <span class="education__studies">50% Scholarship at Scholarship Youth Development Program</span>
+                        <span class="education__year">2009 - 2013</span>
+                    </div>
+                </div>
+                
+                <div class="education__content">
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+
+                    <div class="education__data bd-grid">
+                        <h3 class="education__title">Ismael Mathay Senior High School</h3>
+                        <span class="education__studies">Secondary</span>
+                        <span class="education__year">2006 - 2007</span>
+                    </div>
+                </div>
+
+                <div class="education__content">
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <!-- <span class="education__line"></span> -->
+                    </div>
+
+                    <div class="education__data bd-grid">
+                        <h3 class="education__title">Richland Montessori School</h3>
+                        <span class="education__studies">Primary</span>
+                        <span class="education__year">1999 - 2003</span>
+                    </div>
+                </div>
+
+            </div>
+
+          </section>
+
+          <!-- SKILLS -->
+          <section class="skills section" id="skills">
+            <h2 class="section-title"><i class='bx bx-trophy social__icon'></i>Skills</h2>
+
+            <div class="skills__content bd-grid">
+                <ul class="skills__data">
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>
+                        HTML5
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>
+                        Semantic HTML
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>CSS3
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>
+                        Bootstrap
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>
+                        SASS
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>
+                        JavaScript
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>
+                        JQuery
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>
+                        GitHub
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>
+                        Gitlab
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>
+                        Git
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>
+                        Database Design
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>
+                        Adobe Photoshop
+                    </li>
+                    
+                </ul>
+                <ul class="skills__data">
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>
+                        Adobe Illustrator
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>
+                        Microsoft Office
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>
+                        Canva
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>MERN Stack
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>React.js
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>Postman API
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>Heroku
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>MongoDB
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>NoSQL
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>Express.js
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>Node.js
+                    </li>
+                </ul>
+                
+            </div>
+          </section>
+        </div>
+
+        <div class="resume__right">
+          <!-- EXPERIENCE -->
+          <section class="experience section" id="experience">
+            <h2 class="section-title2"><i class='bx bx-briefcase right__icon'></i> Experience</h2>
+
+            <div class="experience__container bd-grid">
+                <div class="experience__content">
+                    <div class="experience__time">
+                        <span class="experience__rounder"></span>
+                        <span class="experience__line"></span>
+                    </div>
+
+                    <div class="experience__data bd-grid">
+                        <h3 class="experience__title">FULL STACK WEB DEVELOPMENT</h3>
+                        <span class="experience__company">May 2, 2022 to June 23, 2022 @ Zuitt Bootcamp</span>
+                        <p class="experience__description">Student at full Stack Web Developmnent Coding Bootcamp</p>
+                        
+                    </div>
+                </div>
+                <div class="experience__content">
+                    <div class="experience__time">
+                        <span class="experience__rounder"></span>
+                        <span class="experience__line"></span>
+                    </div>
+
+                    <div class="experience__data bd-grid">
+                        <h3 class="experience__title">CUSTOMER SERVICE REPRESENTATIVE</h3>
+                        <span class="experience__company">November 29, 2021 to March 30, 2022 @ Ibex Global</span>
+                        <p class="experience__description">Handled AT&T Telco Account . Receive calls, answer inquiries and resolved issues from US customers </p>
+                    </div>
+                </div>
+                <div class="experience__content">
+                    <div class="experience__time">
+                        <span class="experience__rounder"></span>
+                        <span class="experience__line"></span>
+                    </div>
+
+                    <div class="experience__data bd-grid">
+                        <h3 class="experience__title">CUSTOMER SALES REPRESENTATIVE</h3>
+                        <span class="experience__company">April 20, 2021 to August 16, 2021 @ Afni</span>
+                        <p class="experience__description">Handled Verizon Account. Receive calls, answer inquiries, resolved issues and selling products from US customers. </p>
+                    </div>
+                </div>
+
+                <div class="experience__content">
+                    <div class="experience__time">
+                        <span class="experience__rounder"></span>
+                        <span class="experience__line"></span>
+                    </div>
+
+                    <div class="experience__data bd-grid">
+                        <h3 class="experience__title">FREELANCE GRAPHIC DESGINER</h3>
+                        <span class="experience__company">March 12, 2018 to March 2021</span>
+                        <p class="experience__description">Developed artwork and layout for souvenir products using Adobe Photoshop and Adobe Illustrator.</p>
+                    </div>
+                </div>
+
+                <div class="experience__content">
+                    <div class="experience__time">
+                        <span class="experience__rounder"></span>
+                        <span class="experience__line"></span>
+                    </div>
+
+                    <div class="experience__data bd-grid">
+                        <h3 class="experience__title">CUSTOMER SERVICE REPRESENTATIVE</h3>
+                        <span class="experience__company">April 2016 to August 4, 2016 @ C3/CustomerContactChannels</span>
+                        <p class="experience__description">Handled Spirit Airlines. Receive calls, answer inquiries, resolved issues, selling products and book a reservation from US customers.</p>
+                    </div>
+                </div>
+
+                <div class="experience__content">
+                    <div class="experience__time">
+                        <span class="experience__rounder"></span>
+                        <!-- <span class="experience__line"></span> -->
+                    </div>
+
+                    <div class="experience__data bd-grid">
+                        <h3 class="experience__title">OFFICE CLERK</h3>
+                        <span class="experience__company">September 15, 2014 to February 13, 20156 @ BDO Insurance Brokers, Inc.</span>
+                        <p class="experience__description">Perform clerical office tasks; Sending Dental and Maxicare cards. Respond to telephone calls;</p>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <!-- CERTIFICATES -->
+          <section class="training section" id="training">
+            <h2 class="section-title2"><i class='bx bxs-certification right__icon'></i>TRAINING & CERTIFICATES</h2>
+
+            <div class="training__container bd-grid">
+                
+
+                <div class="training__content">
+                    <div class="training__time">
+                        <span class="training__rounder"></span>
+                        <span class="training__line"></span>
+                    </div>
+
+                    <div class="training__data bd-grid">
+                        <h3 class="training__title">FULL STACK WEB DEVELOPMENT @ ZUITT CODING BOOTCAMP</h3>
+                        <span class="training__date">From May 2, 2022 to June 23, 2022</span>
+                        <p class="training__description">Full Stack Web Development at Zuitt Coding Bootcamp</p>
+
+                        <button class="view__certificate"><a target="_blank" href="http://share.zertify.zuitt.co/certificate/4419c8e2-0260-4331-82bb-867c41c275f2/" class="certificate__link">VIEW CERTIFICATE</a></button>
+                    </div>
+                </div>
+
+                <div class="training__content">
+                    <div class="training__time">
+                        <span class="training__rounder"></span>
+                        <span class="training__line"></span>
+                    </div>
+
+                    <div class="training__data bd-grid">
+                        <h3 class="training__title">THE COMPLETE JAVASCRIPT COURSE 2022: FROM ZERO TO EXPERT! 2022</h3>
+                        <span class="training__date">From June 23, 2022 to Current </span>
+                        <p class="training__description">69 Total hours of Javascript course by Jonas Schmedtmann</p>
+
+                        <button class="view__certificate"><a target="_blank" href="" class="certificate__link">Certificate is not available yet!</a></button>
+                    </div>
+                </div>
+
+                
+
+                <div class="training__content">
+                    <div class="training__time">
+                        <span class="training__rounder"></span>
+                        <span class="training__line"></span>
+                    </div>
+
+                    <div class="training__data bd-grid">
+                        <h3 class="training__title">REACT - THE COMPLETE GUIDE (incl Hooks, React Router, Redux)</h3>
+                        <span class="training__date">From June 23, 2022 to Current</span>
+                        <p class="training__description">40 total hours for React including Hooks,React Router and Redux</p>
+
+                        <button class="view__certificate"><a target="_blank" href="" class="certificate__link">Certificate is not available yet!</a></button>
+                    </div>
+                </div>
+
+                <div class="training__content">
+                    <div class="training__time">
+                        <span class="training__rounder"></span>
+                        <!-- <span class="training__line"></span> -->
+                    </div>
+
+                    <div class="training__data bd-grid">
+                        <h3 class="training__title">ON-THE-JOB TRAINING AT TECHNOLOGY RESOURCE CENTER</h3>
+                        <span class="training__date">2012</span>
+                        <p class="training__description">Total of 480 hours OJT. Review, evaluate, improve or create website designs by using programming languages: HTML and CSS; and using application software: Adobe Dreamweaver and Notepad++.</p>
+
+                        
+                    </div>
+                </div>
+            </div>
+            
+
+            
+
+
+          </section>
+
+          <!-- REFERENCES -->
+          <section class="references section" id="references">
+            <h2 class="section-title2"><i class='bx bxs-contact right__icon'></i>References</h2>
+
+            <div class="references__container bd-grid">
+                <div class="references__content bd-grid">
+                    <span class="references__subtitle">Team Leader</span>
+                    <h3 class="references__title">Ms. Novelyn Hope Bea Dollar</h3>
+                    <ul class="references__contact">
+                        <li>Phone: +639107278933</li>
+                        <li>Email: novelynhope.dolar@gmail.com</li>
+                    </ul>
+                </div>
+
+                <div class="references__content bd-grid">
+                    <span class="references__subtitle">Transaction Processing Analyst</span>
+                    <h3 class="references__title">Evelyn Ferido</h3>
+                    <ul class="references__contact">
+                        <li>Phone: +639618815177</li>
+                        <li>Email: evelynferido@rocketmail.com</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="references__container bd-grid">
+            <div class="references__content bd-grid">
+                <span class="references__subtitle">Team Leader</span>
+                <h3 class="references__title">Grace Magtolis</h3>
+                <ul class="references__contact">
+                    <li>Phone: +639569835684</li>
+                    <li>Email: Graceymagtolis1982@gmail.com</li>
+                </ul>
+            </div>
+
+            <div class="references__content bd-grid">
+                <span class="references__subtitle">Provider Service Advocate</span>
+                <h3 class="references__title">Aubrey Lorraine Rebanal</h3>
+                <ul class="references__contact">
+                    <li>Phone: +639266108259</li>
+                    <li>Email: missaubreylorraine@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+
+          </section>
+
+          
+        </div>
+      </div>
+    </main>
+
+    <!-- SCROLL TOP -->
+    <a href="#" class="scrolltop top" id="scroll">
+        <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+
+    <!-- HTML2PDF -->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
